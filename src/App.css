@@ -1,0 +1,39 @@
+/* A simple reset and font styling */
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #121212; /* Dark background */
+  color: #e4e4e4; /* Light text */
+}
+
+/* Main container for our page */
+.container {
+  text-align: center;
+  padding: 50px 20px;
+}
+
+/* Header styles */
+header h1 {
+  font-size: 3rem;
+  color: #ffffff;
+  margin-bottom: 10px;
+}
+
+header p {
+  font-size: 1.2rem;
+  color: #a0a0a0;
+}
+
+/* Main content styles */
+main {
+  margin-top: 40px;
+}
+
+main h2 {
+  font-size: 2rem;
+  color: #70a1ff; /* A nice blue accent color */
+}
