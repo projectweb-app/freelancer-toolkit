@@ -1,7 +1,8 @@
 import { supabase } from '../supabaseClient';
 import ProposalGenerator from '../components/ProposalGenerator';
 import PricingCalculator from '../components/PricingCalculator';
-import CommunicationHelper from '../components/CommunicationHelper'; // 1. Import the new component
+import CommunicationHelper from '../components/CommunicationHelper';
+import DocumentGenerator from '../components/DocumentGenerator'; // 1. Import the new component
 
 function Dashboard() {
   const handleLogout = async () => {
@@ -22,7 +23,10 @@ function Dashboard() {
         <PricingCalculator />
 
         {/* Tool 3 */}
-        <CommunicationHelper /> {/* 2. Add the new component here */}
+        <CommunicationHelper />
+        
+        {/* Tool 4 */}
+        <DocumentGenerator /> {/* 2. Add the new component here */}
       </main>
     </div>
   );
